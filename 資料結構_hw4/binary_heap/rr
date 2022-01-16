@@ -1,0 +1,6 @@
+#!/bin/bash
+for i in $(seq 1 5)
+do
+        python3 demo.py $i result.csv
+done
+
